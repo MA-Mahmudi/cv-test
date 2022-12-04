@@ -1,8 +1,9 @@
+import Sidebar from "./components/view/sidebar";
 function App() {
   return (
 
-      <div className="text-8xl">
-        uuhuh
+      <div>
+        <Sidebar/>
       </div>
   );
 }
