@@ -1,15 +1,14 @@
-//@ts-ignore
-import React from 'react';
-import {CircularProgress} from "@mui/material";
+import {Box, CircularProgress} from "@mui/material";
 
 
-const UProgress = () => {
+const UProgress = ({value, label}) => {
 
-  let val = null as number
-
-  return (
-    <div>
-      <CircularProgress variant="determinate" value={10}/>
+return (
+    <div className={"row align-middle"}>
+        <Box>
+            <CircularProgress variant="determinate" value={value} size={50}/>
+            <span className={"text-beige"}>{label}</span>
+        </Box>
     </div>
   );
 };
