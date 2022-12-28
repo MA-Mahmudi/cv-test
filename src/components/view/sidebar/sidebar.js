@@ -24,7 +24,7 @@ const Sidebar = () => {
 return (
   <div className="column w-[300px] h-screen p-4 bg-black" dir="rtl">
     <div id="profile" className="column center-content text-beige">
-      <img src={profileImg} alt={"Profile"} className="w-32 rounded-full" />
+      {/*<img src={profileImg} alt={"Profile"} className="w-32 rounded-full" />*/}
       <h3 className={"mt-5"}>MA Mahmudi</h3>
       <span>09022405474</span>
     </div>
