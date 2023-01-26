@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../../../assets/img/prof.svg'
+// import profileImg from '../../../assets/img/prof.svg'
 import UProgress from "../../ui/progress/u-progress.tsx";
 
 const Sidebar = () => {
@@ -29,6 +29,7 @@ return (
       <span>09022405474</span>
     </div>
     <div id="skills" className={"column center-content mt-10"}>
+
       {skillsList.map((item) => {
         return(
           <div className={"my-5"}>
@@ -36,6 +37,7 @@ return (
           </div>
         )
       })}
+
     </div>
   </div>
 );
