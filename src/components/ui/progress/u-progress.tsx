@@ -9,6 +9,7 @@ return (
             <CircularProgress variant="determinate" value={value} size={50}/>
             <span className={"text-beige"}>{label}</span>
         </Box>
+
     </div>
   );
 };
