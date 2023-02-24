@@ -4,10 +4,13 @@ import {Box, CircularProgress} from "@mui/material";
 const UProgress = ({value, label}) => {
 
 return (
-    <div className={"row align-middle"}>
-        <Box>
-            <CircularProgress variant="determinate" value={value} size={50}/>
-            <span className={"text-beige"}>{label}</span>
+    <div>
+        <Box className="row center-content">
+            <CircularProgress variant="determinate" thickness={5} value={value} size={60} color="secondary"/>
+            <Box className="">
+                <span className="text-beige">{value}%</span>
+            </Box>
+            <span className="text-beige mr-4">{label}</span>
         </Box>
 
     </div>

@@ -1,12 +1,13 @@
 import React from 'react';
 
 const Main = () => {
-    return (
-        <div>
-            <div dir={"rtl"} className={"h-screen w-full"}>
-            </div>
-        </div>
-    );
+  return (
+    <div className={"h-screen w-full background-black"}>
+      <div>
+        <span className="">asdf</span>
+      </div>
+    </div>
+  )
 };
 
 export default Main;
